@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas:
+    cm, mm, in(polegadas), px, pt, pc
+    
+    Medidas Relativas:
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+
+    *Shorthand*
+    -font-style -> font weight -> font-size -> font-family
+    */
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+    font: normal 1.5em 'arial' 'sans-serif';
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
