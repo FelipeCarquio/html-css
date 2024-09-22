@@ -2,3 +2,7 @@
 
 /* Modo paisagem (landscape) */
 
+body {
+    background-image: url(../imagem/landscape.jpg);
+    background-repeat: no-repeat;
+}
